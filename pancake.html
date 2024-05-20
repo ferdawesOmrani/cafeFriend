@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>CafeFriend - Contact</title>
+  <title>CafeFriend - Panier</title>
   <meta name="description" content="notre site web fournit tous les informations sur nos offres et nos services">
   <meta name="keywords" content="cafe , cake , pancake , breakfast , food , friend , love , hungry">
 
   <!-- Favicons -->
+  <script src="https://kit.fontawesome.com/a2b18d87b0.js" crossorigin="anonymous"></script>
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -28,6 +29,7 @@
   <!-- Template Main CSS Files -->
   <link href="assets/css/variables.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/panier.css" rel="stylesheet">
 
 </head>
 
@@ -85,73 +87,165 @@
 
   </header><!-- End Header -->
 
-  <main id="main">
-    <section id="contact" class="contact mb-5">
-      <div class="container" data-aos="fade-up">
+<!-- =========== main =========== -->
 
-        <div class="row">
-          <div class="col-lg-12 text-center mb-5">
-            <h1 class="page-title">Contact us</h1>
-          </div>
-        </div>
+<main id="main">
 
-        <div class="row gy-4">
 
-          <div class="col-md-4">
-            <div class="info-item">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>ARIANA ELGHAZELA</address>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-4">
-            <div class="info-item info-item-borders">
-              <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+216 50 278 143</a></p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-4">
-            <div class="info-item">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">CafeFriend@yahoo.com</a></p>
-            </div>
-          </div><!-- End Info Item -->
-
-        </div>
-
-        <div class="form mt-5">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div><!-- End Contact Form -->
-
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan1.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious Raspberry Pancake !</h3>
+      <p class="description">Offrez-vous un petit-déjeuner de luxe avec notre assortiment de fromages pour petit-déjeuner. Savourez une sélection soigneusement choisie de fromages fins, parfaite pour commencer votre journée avec une touche de sophistication. Avec une variété de saveurs et de textures, chaque bouchée est une expérience de plaisir pur pour vos papilles.</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
       </div>
-    </section>
+      <h3 class="price">14 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan2.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious Fig Pancake !</h3>
+      <p class="description">Notre assortiment comprend des fromages doux et crémeux, des fromages affinés aux saveurs prononcées, ainsi que des fromages frais et légers. Accompagnez-les de fruits frais, de confitures maison et de pain croustillant pour une expérience gustative inégalée.</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h3 class="price">12 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
 
-  </main><!-- End #main -->
+
+
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan3.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious  Vanilla Pancake !</h3>
+      <p class="description">Que vous soyez un amateur de fromages expérimenté ou que vous souhaitiez simplement ajouter une touche spéciale à votre petit-déjeuner, notre assortiment de fromages pour petit-déjeuner est la solution parfaite. Commandez dès maintenant pour élever votre premier repas de la journée à un niveau supérieur !</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h3 class="price">18 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan4.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious Cherry Pancake !</h3>
+      <p class="description">Découvrez notre assortiment de petit-déjeuner complet, parfait pour bien commencer la journée. Ce mélange alléchant comprend une variété de délices matinaux, notamment un cake moelleux, des œufs frais, un jus de fruits rafraîchissant et des pancakes dorés.</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h3 class="price">20 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan5.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious Strawberry Pancake !</h3>
+      <p class="description">Offrez-vous un petit-déjeuner de luxe avec notre assortiment de fromages pour petit-déjeuner. Savourez une sélection soigneusement choisie de fromages fins, parfaite pour commencer votre journée avec une touche de sophistication. Avec une variété de saveurs et de textures, chaque bouchée est une expérience de plaisir pur pour vos papilles.</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h3 class="price">12 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="product">
+    <div class="img">
+      <img src="/assets/img/pan6.jpg" alt="Pancake" class="productImage">
+    </div>
+    <div class="productDesc">
+      <h3 class="productName">Delicious Choclate Pancake !</h3>
+      <p class="description">Offrez-vous un petit-déjeuner de luxe avec notre assortiment de fromages pour petit-déjeuner. Savourez une sélection soigneusement choisie de fromages fins, parfaite pour commencer votre journée avec une touche de sophistication. Avec une variété de saveurs et de textures, chaque bouchée est une expérience de plaisir pur pour vos papilles.</p>
+    </div>
+    <div class="productSales">
+      <div class="reviews">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h3 class="price">17 DT</h3>
+      <div class="btns">
+        <button><a href="/panier.html"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button><a href="/contact.html">live Preview</a></button>
+      </div>
+    </div>
+  </div>
+
+  
+</main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -161,7 +255,7 @@
 
         <div class="row g-5">
           <div class="col-lg-4">
-            <h3 class="footer-heading">About CAFEAcceuil</h3>
+            <h3 class="footer-heading">About ZenBlog</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab, perspiciatis beatae autem deleniti voluptate nulla a dolores, exercitationem eveniet libero laudantium recusandae officiis qui aliquid blanditiis omnis quae. Explicabo?</p>
             <p><a href="about.html" class="footer-link-more">Learn More</a></p>
           </div>
@@ -193,12 +287,12 @@
           <div class="col-lg-4">
             <h3 class="footer-heading">Recent Posts</h3>
 
-            <ul class="footer-links footer-Acceuil-entry list-unstyled">
+            <ul class="footer-links footer-blog-entry list-unstyled">
               <li>
                 <a href="panier.html" class="d-flex align-items-center">
                   
                   <div>
-                    <div class="post-meta d-block"><span class="date">Coffee</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <div class="post-meta d-block"><span class="date">Cake</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
                     <span>5 Great Startup Tips for Female Founders</span>
                   </div>
                 </a>
@@ -208,7 +302,7 @@
                 <a href="panier.html" class="d-flex align-items-center">
                   
                   <div>
-                    <div class="post-meta d-block"><span class="date">Coffee</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <div class="post-meta d-block"><span class="date">Cake</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
                     <span>What is the son of Football Coach John Gruden, Deuce Gruden doing Now?</span>
                   </div>
                 </a>
@@ -218,7 +312,7 @@
                 <a href="panier.html" class="d-flex align-items-center">
                   
                   <div>
-                    <div class="post-meta d-block"><span class="date">Coffee</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <div class="post-meta d-block"><span class="date">Cake</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
                     <span>Life Insurance And Pregnancy: A Working Mom’s Guide</span>
                   </div>
                 </a>
@@ -228,7 +322,7 @@
                 <a href="panier.html" class="d-flex align-items-center">
                   
                   <div>
-                    <div class="post-meta d-block"><span class="date">Coffee</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <div class="post-meta d-block"><span class="date">Cake</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
                     <span>How to Avoid Distraction and Stay Focused During Video Calls?</span>
                   </div>
                 </a>
@@ -247,11 +341,14 @@
         <div class="row justify-content-between">
           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
             <div class="copyright">
-              © Copyright <strong><span>CAFEAcceuil</span></strong>. All Rights Reserved
+              © Copyright <strong><span>CafeFriend</span></strong>. All Rights Reserved
             </div>
 
             <div class="credits">
-              
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-coffe-template/ -->
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
 
